@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('https://fonts.googleapis.com/css?family=Amatic+SC') format('truetype');
+  }
+  
+  .body {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+  
+  h1 { 
+    font-family: "Amatic SC";
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+  }
+  
+  p {
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  a {
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  /* HEADER & MENU */
+  .header {
+    background-color: #3498DB;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+  
+  }
+  
+  .header img {
+    width: 40%;
+  }
+  .header a {
+    color: whitesmoke;
+    text-decoration: none;
+    z-index: 1;
+  }
+  
+  #bar {
+    overflow: hidden;
+    background-color: #5DADE2;
+    z-index: 1;
+  }
+  
+  #bar a {
+    float: right;
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 30px;
+    z-index: 1;
+  }
+  
+  #bar a:hover {
+    background-color: #3498DB;
+    color: black;
+  }
+  
+  #bar a.active {
+    background-color: #3498DB;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky+.content {
+    padding-top: 60px;
+  }
+  
+  /* CONTENT */
+  
+  .container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5%;
+    z-index: -1; 
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom:2%;
+
+  }
+  
+  .container a {
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  .card-container p {
+    text-shadow: #000 1px 1px;
+    font-size: 40px;
+    z-index: 1;
+    
+  }
+  
+  .cardnome {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+  }
+
+  .card-text {
+    width: 20%;
+    letter-spacing: 1px;
+    display: block;
+    flex-grow: calc(1);
+    justify-content: space-between;
+    color: black;
+    z-index: -1;
+    padding: 5%;
+  }
+  
+  .card-text a {
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  .social:hover {
+   opacity: 0.7;
+  }
+  
+  
+  /* FOOTER */
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3498DB;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 15px;
+  }
