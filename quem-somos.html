@@ -102,6 +102,20 @@ a {
         h2 {
             color: blue;
         }
+        
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #3498DB;
+          color: white;
+          text-align: center;
+           }
+
+.footer p {
+  font-size: 15px;
+}
     </style>
 </head>
 
@@ -180,6 +194,26 @@ a {
             </p>
         </div>
     </div>
+    
+    <script>
+      window.onscroll = function () { myFunction() };
+
+      var bar = document.getElementById("bar");
+
+      var sticky = bar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          bar.classList.add("sticky")
+        } else {
+          bar.classList.remove("sticky");
+        }
+      }          
+    </script>
+    <div class="footer">
+      <p>PROJETO SQUAD 2</p>
+    </div>
+    <script src="js/script.js"></script>
 
 </body>
 
