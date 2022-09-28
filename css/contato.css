@@ -156,7 +156,7 @@ form label {
   font-size: 15px;
 }
 
-@media screen and (max-width: 615px){
+@media screen and (max-width: 620px){
   .body {
     display: flex;
     margin: 8px;
