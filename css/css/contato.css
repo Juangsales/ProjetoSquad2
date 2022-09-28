@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('https://fonts.googleapis.com/css?family=Amatic+SC') format('truetype');
+}
+
+.body {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+form {
+  border-radius: 6px;
+  font-family: Verdana,Tahoma,sans-serif;
+  font-size: 15px;
+  max-width: max-content;
+}
+
+h1 { 
+  margin-left: 5px;
+  font-family: "Amatic SC";
+  font-size: 40px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+}
+
+p, a {
+  font-family: 'Amatic SC', cursive;
+}
+
+
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.enviar {
+  background-color: #9999997d;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+textarea {
+  width: 300px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+
+/* HEADER & MENU */
+.header {
+  background-color: #3498DB;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
+
+}
+
+.header img {
+  width: 40%;
+}
+.header a {
+  color: whitesmoke;
+  text-decoration: none;
+  z-index: 1;
+}
+
+#bar {
+  overflow: hidden;
+  background-color: #5DADE2;
+}
+
+#bar a {
+  float: right;
+  display: flex;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+  z-index: 1;
+}
+
+#bar a:hover {
+  background-color: #3498DB;
+  color: black;
+}
+
+#bar a.active {
+  background-color: #3498DB;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+/* CONTENT */
+
+.container {
+  background-color: rgb(227, 227, 227);
+  padding: 20px;;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.452) 0px 0px 2px 2px;
+  width: 29%;
+  min-width: min-content;
+  display: flex;
+  margin: 1% 3% 10% 3%;
+  z-index: -1; 
+}
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3498DB;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 500px){
+  .body {
+    display: flex;
+    margin: 8px;
+  }
+
+  .header {
+  width: auto;
+  }
+
+  #bar {
+  width: auto;
+  background-color: #5DADE2;
+  height: 260px;
+  color: white;
+
+  }
+
+  #bar a {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: none;
+  border: rgba(0, 0, 0, 0.296) solid 1px;
+  }
+  
+  .container {
+    width: auto;
+  }
+
+  textarea {
+    width: 200px;
+
+  }
+
+}
