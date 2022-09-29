@@ -19,8 +19,14 @@ function Enviar() {
     var mail = document.getElementById("email");
     var text = document.getElementById("text");
 
-    if (text.value == "" && (mail.value =="" && (fone.value == "" && nome.value == ""))) {
-            
+   if (text.value == "") {
+
+    } else if (mail.value == ""){
+
+    } else if (fone.value == ""){
+
+    } else if  (nome.value == ""){
+
     } else{
         alert('Obrigado Sr(a) ' + nome.value + ', a sua mensagem foi enviada com sucesso');
     }
