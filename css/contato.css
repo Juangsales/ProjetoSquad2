@@ -118,7 +118,7 @@ form label {
 .sticky {
   position: fixed;
   top: 0;
-  width: 95%;
+  width: 100%;
 }
 
 .sticky+.content {
@@ -178,6 +178,10 @@ form label {
     flex-direction: column-reverse;
   }
 
+  .sticky {
+  width: 95%;
+}
+  
   #bar {
   height: 260px;
   color: white;
