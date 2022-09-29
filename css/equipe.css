@@ -177,7 +177,6 @@ body {
   @media screen and (max-width: 620px){
     .body {
       display: flex;
-      margin: 8px;
     }
   
     .header {
