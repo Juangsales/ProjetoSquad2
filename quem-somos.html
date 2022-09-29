@@ -7,137 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="css/quem-somos.css">
+    
     <title>Sobre a empresa</title>
-  
-    <style>
-        .body {
-  font-family: 'Amatic SC', sans-serif;
-  font-size: 22px;
-  background-color: black;
-  color: white;
-  margin: 0;
-}
 
-h1 { 
-  font-family: "Amatic SC";
-  font-size: 40px; 
-  font-style: normal; 
-  font-variant: normal; 
-  font-weight: 700; 
-  line-height: 26.4px; 
-}
-
-a {
-  font-family: 'Amatic SC', cursive;
-}
-        .header {
-            background-color: #3498DB;
-            padding: 50px;
-            text-align: center;
-            text-decoration: none;
-            z-index: 1;
-
-        }
-
-        .header img {
-            width: 40%;
-        }
-
-        .header a {
-            color: whitesmoke;
-            text-decoration: none;
-            z-index: 1;
-        }
-
-        #bar {
-            overflow: hidden;
-            background-color: #5DADE2;
-            z-index: 1;
-        }
-
-        #bar a:hover {
-            background-color: #3498DB;
-            color: black;
-        }
-
-        #bar a {
-            float: right;
-            display: flex;
-            color: whitesmoke;
-            text-align: center;
-            padding: 14px;
-            text-decoration: none;
-            font-size: 30px;
-            z-index: 1;
-        }
-
-        #bar a.active {
-            background-color: #3498DB;
-            color: white;
-        }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-        .principal {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .child {
-            width: 250px;
-            height: 200px;
-            text-align: center;
-            margin: 20px;
-        }
-
-        .mvv {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        h2 {
-            color: blue;
-        }
-        
-        .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: #3498DB;
-          color: white;
-          text-align: center;
-           }
-
-.footer p {
-  font-size: 15px;
-}
-    </style>
 </head>
 
 <body>
 
     <div class="header">
         <a href="index.html">
-            <h1>
-                <img src="media/logo-projeto-squad-2.png">
-            </h1>
+            <h1><img src="media/logo-projeto-squad-2.png"></h1>
             <p></p>
         </a>
 
     </div>
 
-    <div id="bar" class="active">
+    <div id="bar" class="reverse">
 
         <a href="formulario-de-contato.html">FORMULÁRIO DE CONTATO</a>
         <a href="nossa-equipe.html">NOSSA EQUIPE</a>
         <a href="produtos.html">PRODUTOS</a>
-        <a href="quem-somos.html">QUEM SOMOS</a>
+        <a class="active" href="quem-somos.html">QUEM SOMOS</a>
     </div>
 
     <div class="principal">

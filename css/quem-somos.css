@@ -1,0 +1,151 @@
+    .body {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    }
+  
+    h1 { 
+    font-family: "Amatic SC";
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    }
+  
+    a {
+    font-family: 'Amatic SC', cursive;
+    }
+
+    .header {
+     background-color: #3498DB;
+     padding: 50px;
+     text-align: center;
+     text-decoration: none;
+     z-index: 1;
+  
+    }
+  
+    .header img {
+     width: 40%;
+    }
+  
+    .header a {
+        color: whitesmoke;
+        text-decoration: none;
+        z-index: 1;
+      }
+      
+    #bar {
+    overflow: hidden;
+    background-color: #5DADE2;
+    z-index: 1;
+    }
+  
+          
+  
+    #bar a {
+        float: right;
+        display: flex;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 30px;
+        z-index: 1;
+    }
+  
+    #bar a:hover {
+        background-color: #3498DB;
+        color: black;
+    }
+
+    #bar a.active {
+        background-color: #3498DB;
+        color: white;
+        }
+    
+    .content {
+        padding: 16px;
+    }
+          
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+          
+    .sticky+.content {
+        padding-top: 60px;
+    }
+  
+          
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .child {
+        width: 250px;
+        height: 200px;
+        text-align: center;
+        margin: 20px;
+    }
+  
+    .mvv {
+        display: flex;
+        justify-content: space-around;
+    }
+  
+    h2 {
+        color: blue;
+    }
+          
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #3498DB;
+        color: white;
+        text-align: center;
+    }
+  
+  .footer p {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 620px){
+
+    .header {
+    width: auto;
+    padding: 10px;
+    }
+  
+    .reverse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .sticky {
+    position: unset;
+  }
+    
+    #bar {
+    height: 260px;
+    color: white;
+  
+    }
+  
+    #bar a {
+    width: 100%;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.296) solid 1px;
+    }
+    
+  
+  }
