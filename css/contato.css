@@ -6,7 +6,7 @@
 body {
   font-family: 'Amatic SC', sans-serif;
   font-size: 22px;
-  color: white;
+  color: black;
   margin: 0;
 }
 
@@ -109,7 +109,6 @@ input, textarea {
   width: 200px;
   padding: 10px;
   color: black;
-  margin-left: 20px;
   margin-bottom: 5px;
   border-radius: 5px;
   border: 1px solid;
@@ -133,7 +132,6 @@ textarea {
 }
 
 form label {
-  margin-left: 20px;
   font-weight: bold;
 }
 
