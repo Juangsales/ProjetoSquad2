@@ -1,10 +1,9 @@
-    .body {
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 22px;
-    background-color: black;
-    color: white;
-    margin: 0;
-    }
+body {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
   
     h1 { 
     font-family: "Amatic SC";
@@ -119,7 +118,10 @@
   }
 
   @media screen and (max-width: 620px){
-
+        .body {
+    display: flex;
+  }
+      
     .header {
     width: auto;
     padding: 10px;
