@@ -71,7 +71,6 @@ body {
 
 
 .flex {
-  background-color: #3fb93b;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -92,7 +91,7 @@ body {
  }
 
 .col2 > form {
-  background-color: #ff1616;
+  background-color:#3498DB;
   padding: 20px;;
   height: auto;
   border-radius: 3px;
