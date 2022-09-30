@@ -213,38 +213,38 @@ a {
 
 .footer {
   display: grid;
-  text-align: center;
+    text-align: center;
 }
 
 .footer p {
-  font-family:'Amatic SC';
-  font-size: 20px;
+font-family: ;
+font-size: 20px;
 }
 
 .rodape {
   background: #5dade2;
-  font-size: 50px;
-  width: 100%;
-  padding: 1%
+    font-size: 50px;
+    width: 100%;
+    padding: 1%
 }
 
 .rodape2 {
-
-  text-align: center;
-  display: flex;
-  background: #3498DB;
-  font-size: 50px;
-  width: 100%;
-  justify-content: space-evenly;
-  padding: 3%;
+  
+    text-align: center;
+    display: flex;
+    background: #3198ff;
+    font-size: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 3%;
 }
 
 .adress {
-  background: #3498DB;
-  font-size: 50px;
+  background: #3198ff;
+    font-size: 50px;
 }
 
 .atendimento {
-  background: #3498DB;
-  font-size: 50px;
+  background: #3198ff;
+    font-size: 50px;
 }
