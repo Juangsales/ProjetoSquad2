@@ -6,23 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
   <link rel="stylesheet" href="css/produtos.css">
-  
+  <script src="js/index.js"></script>
 
-  <title>Produtos</title>
+  <title>Projeto 2</title>
 </head>
 
 <body>
   <div class="header">
     <a href="index.html">
-      <h1><img src= "media/logo-projeto-squad-2.png"></h1>
+      <h1><img src="media/logo-projeto-squad-2.png"></h1>
       <p></p>
     </a>
 
   </div>
 
-  <div id="bar" class="reverse">
+  <div id="bar" class="active">
 
     <a href="formulario-de-contato.html">FORMULÁRIO DE CONTATO</a>
     <a href="nossa-equipe.html">NOSSA EQUIPE</a>
@@ -36,9 +36,14 @@
         <p>Inglês</p>
       </div>
       <div class="card-text">
-        <a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptate officia doloribus exercitationem dicta
-        voluptates, consequuntur perspiciatis eveniet eius fuga iste, cupiditate aliquid? Quidem deserunt aperiam
-        doloribus, corrupti reiciendis voluptatibus?</a>
+        <ul>
+          <li>Modalidade: Presencial, semi-presencial e EAD</li>
+          <li>Duração: 12 meses</li>
+          <li>Material didático incluso!</li>
+        </ul>
+        <div class="button">
+          <a>Matrícule-se</a>
+        </div>
       </div>
     </div>
     <div class="card-container">
@@ -46,8 +51,14 @@
         <p>Espanhol</p>
       </div>
       <div class="card-text">
-        <a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed saepe sint illo nam fugit corrupti beatae deleniti
-        totam natus? Ab officiis perspiciatis hic reiciendis voluptatem accusantium rem itaque sequi culpa.</a>
+        <ul>
+          <li>Modalidade: Presencial, semi-presencial e EAD</li>
+          <li>Duração: 12 meses</li>
+          <li>Material didático incluso!</li>
+        </ul>
+        <div class="button">
+          <a>Matrícule-se</a>
+        </div>
       </div>
     </div>
     <div class="card-container">
@@ -55,18 +66,53 @@
         <p>Informática</p>
       </div>
       <div class="card-text">
-        <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati odio delectus voluptatibus adipisci ipsa
-        alias distinctio hic doloremque mollitia, facilis illo sapiente sint laudantium. Voluptatem perferendis
-        doloribus error voluptate quia!</a>
+        <ul>
+          <li>Modalidade: Presencial</li>
+          <li>Duração: 6 meses</li>
+          <li>Material didático incluso!</li>
+        </ul>
+        <div class="button">
+          <a>Matrícule-se</a>
+        </div>
       </div>
     </div>
+  </div>
+    <script>
+      window.onscroll = function () { myFunction() };
 
+      var bar = document.getElementById("bar");
+
+      var sticky = bar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          bar.classList.add("sticky")
+        } else {
+          bar.classList.remove("sticky");
+        }
+      }          
+    </script>
     <div class="footer">
-      <p>PROJETO SQUAD 2</p>
-    </div>
+      <div class="rodape2">
+        <div class="adress">
+          <b>
+            <p>Endereços:</p>
+          </b>
+          <p>Rua de Santana, Centro - Rio de Janeiro</ul>
+          <p>Rua Augusta, Centro - São Paulo</ul>
+        </div>
+        <div class="atendimento">
+          <b>
+            <p>Horario de atendimento:
+          </b> </p>
 
-    <script src="js/script.js"></script>
-    
+        </div>
+      </div>
+      <div class="rodape">
+        <p><b>Educação X</p></b>
+
+      </div>
+    </div>
 </body>
 
 </html>
