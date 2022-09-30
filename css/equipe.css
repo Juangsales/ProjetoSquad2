@@ -2,7 +2,11 @@
     font-family: 'Amatic SC';
     src: url('https://fonts.googleapis.com/css?family=Amatic+SC') format('truetype');
   }
-  
+
+html {
+    overflow-x: hidden;
+}
+
 body {
   font-family: 'Amatic SC', sans-serif;
   font-size: 22px;
