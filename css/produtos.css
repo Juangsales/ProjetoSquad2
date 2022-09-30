@@ -102,7 +102,6 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   margin: 0;
-  padding: 5% 10%;
   z-index: -1;
 }
 
@@ -112,6 +111,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 90%;
+  margin: 5%;
 }
 
 .container a {
