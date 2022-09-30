@@ -89,9 +89,9 @@ body {
     }
   
     .child {
-        width: 300px;
-        height: 200px;
-        margin: 20px;
+        width: auto;
+        height: auto;
+        margin: auto;
     }
   
     .mvv {
