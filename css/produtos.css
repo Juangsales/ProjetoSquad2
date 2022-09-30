@@ -11,7 +11,7 @@ body {
   font-family: 'Amatic SC', sans-serif;
   font-size: 22px;
   background-color: white;
-  color: white;
+  color:white;
   margin: 0;
 }
 
@@ -99,6 +99,7 @@ a {
   height: auto;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
   margin: 0;
@@ -131,6 +132,7 @@ a {
   height: 300px;
   margin: 3rem 0 0 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img.freepik.com/fotos-gratis/livro-de-ingles-descansando-na-mesa-do-espaco-de-trabalho_23-2149429625.jpg?w=1380&t=st=1664084950~exp=1664085550~hmac=ab78ca3f72550e8b4bfd0b27dde51f00da7485725ce649c8e255bbaa17904b0b);
@@ -149,6 +151,7 @@ a {
   height: 300px;
   margin: 3rem 0 0 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img.freepik.com/vetores-gratis/alunos-personagens-aprendendo-espanhol-curso-de-lingua-estrangeira_87771-10536.jpg?w=1380&t=st=1664085078~exp=1664085678~hmac=e220b259c66c323fd7bb3bd1427d4c55dfa3d3afc08b4aecfea8ecdef1067066);
@@ -167,6 +170,7 @@ a {
   height: 300px;
   margin: 3rem 0 0 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img.freepik.com/vetores-gratis/alunos-com-elementos-de-sala-de-aula-de-informatica_1308-52761.jpg?w=1380&t=st=1664087686~exp=1664088286~hmac=608300ec4d1c2ea516f970a442be30ef55b3ef6b19c8e29780d6abaabfc3255b);
@@ -184,12 +188,15 @@ a {
   width: 20%;
   letter-spacing: 1px;
   display: flex;
+  flex-wrap: wrap;
   flex-grow: calc(1);
   justify-content: space-between;
   color: black;
   padding: 5%;
   z-index: -1;
+  flex-direction: column;
 }
+
 
 .card-text li {
   font-size: 20px;
@@ -198,14 +205,15 @@ a {
 
 .button {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border-radius: 0.5cm;
   background-color: #3498DB;
-  width: 10%;
+  padding: 8px;
+  max-width: 42%;
   height: 5%;
   flex-direction: column;
-  flex-wrap: wrap;
   color: white;
 }
 
@@ -213,18 +221,18 @@ a {
 
 .footer {
   display: grid;
-    text-align: center;
+  text-align: center;
 }
 
 .footer p {
-font-family: ;
+font-family: 'Amatic SC';
 font-size: 20px;
 }
 
 .rodape {
   background: #5dade2;
     font-size: 50px;
-    width: 100%;
+    width: auto;
     padding: 1%
 }
 
@@ -234,7 +242,7 @@ font-size: 20px;
     display: flex;
     background: #3198ff;
     font-size: 50px;
-    width: 100%;
+    width: auto;
     justify-content: space-evenly;
     padding: 3%;
 }
@@ -248,3 +256,42 @@ font-size: 20px;
   background: #3198ff;
     font-size: 50px;
 }
+
+@media screen and (max-width: 620px){
+    .body {
+      display: flex;
+    }
+      .header img {
+    width: 100%;
+  }
+  
+    .header {
+    width: auto;
+    padding: 10px;
+    }
+  
+    .reverse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .sticky {
+    position: unset;
+  }
+    
+    #bar {
+    height: auto;
+    color: white;
+  
+    }
+  
+    #bar a {
+    width: 100%;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.296) solid 1px;
+    }
+
+    .button {
+    max-width: unset;
+    }
+  }
