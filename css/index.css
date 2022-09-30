@@ -103,18 +103,42 @@ body {
   }
 
   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #3498DB;
-    color: white;
+  display: grid;
     text-align: center;
-  }
+}
+
+.footer p {
+font-family: ;
+font-size: 20px;
+}
+
+.rodape {
+  background: #5dade2;
+    font-size: 50px;
+    width: 100%;
+    padding: 1%
+}
+
+.rodape2 {
   
-  .footer p {
-    font-size: 15px;
-  }
+    text-align: center;
+    display: flex;
+    background: #3198ff;
+    font-size: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.adress {
+  background: #3198ff;
+    font-size: 50px;
+}
+
+.atendimento {
+  background: #3198ff;
+    font-size: 50px;
+}
   
   @media screen and (max-width: 620px){
     .body {
