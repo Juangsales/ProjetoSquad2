@@ -88,12 +88,7 @@ body {
         align-items: center;
     }
   
-    .child {
-        width: auto;
-        height: auto;
-        margin: auto;
-    }
-  
+   
     .mvv {
         display: flex;
         justify-content: space-around;
