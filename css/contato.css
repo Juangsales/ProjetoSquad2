@@ -71,22 +71,35 @@ body {
 
 
 .flex {
+  background-color: #3fb93b;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
-.flex > form {
-  background-color: rgb(227, 227, 227);
+.col {
+  padding: 10%;
+  display: flex;
+  text-align: center;
+  font-size: 60px;
+  flex-direction: column;
+}
+
+
+.col2 {
+  padding: 10%;
+  display: block;
+ }
+
+.col2 > form {
+  background-color: #ff1616;
   padding: 20px;;
   height: auto;
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.452) 0px 0px 2px 2px;
-  width: 29%;
-  min-width: min-content;
+  max-width: 350px;
+  min-width: fit-content;
   z-index: -1; 
-  margin-top: 20%;
-  margin-bottom: 20%;
 }
 
 
@@ -95,8 +108,7 @@ h1 {
   font-family: "Amatic SC";
   font-size: 40px; 
   font-style: normal; 
-  font-variant: normal; 
-  font-weight: 700; 
+  font-variant: normal;  
   line-height: 26.4px; 
 }
 
@@ -136,17 +148,40 @@ form label {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #3498DB;
-  color: white;
-  text-align: center;
+  display: grid;
+    text-align: center;
 }
 
 .footer p {
-  font-size: 15px;
+font-size: 20px;
+}
+
+.rodape {
+  background: #5dade2;
+    font-size: 50px;
+    width: auto;
+    padding: 1%
+}
+
+.rodape2 {
+  
+    text-align: center;
+    display: flex;
+    background: #3198ff;
+    font-size: 50px;
+    width: auto;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.adress {
+  background: #3198ff;
+    font-size: 50px;
+}
+
+.atendimento {
+  background: #3198ff;
+    font-size: 50px;
 }
 
 @media screen and (max-width: 620px){
@@ -180,14 +215,14 @@ form label {
   border: rgba(0, 0, 0, 0.296) solid 1px;
   }
   
-  .flex > form {
-    width: auto;
-    margin-top: 10%;
+  .flex {
+    display: flex;
+    flex-direction: column;
   }
+
 
   textarea {
     width: 200px;
-
   }
 
 }
