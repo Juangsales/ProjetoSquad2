@@ -132,23 +132,23 @@ h2 {
 }
 
 .footer {
-    display: flex;
+  display: grid;
     text-align: center;
 }
 
 .footer p {
-    font-family: 15px;
-    font-size: 20px;
+font-size: 20px;
 }
 
 .rodape {
-    background: #5dade2;
+  background: #5dade2;
     font-size: 50px;
     width: auto;
     padding: 1%
 }
 
 .rodape2 {
+  
     text-align: center;
     display: flex;
     background: #3198ff;
@@ -159,12 +159,12 @@ h2 {
 }
 
 .adress {
-    background: #3198ff;
+  background: #3198ff;
     font-size: 50px;
 }
 
 .atendimento {
-    background: #3198ff;
+  background: #3198ff;
     font-size: 50px;
 }
 
