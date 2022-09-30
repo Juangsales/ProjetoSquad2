@@ -37,7 +37,7 @@ body {
   }
   
   .header img {
-    width: 100%;
+    width: 50%;
   }
   .header a {
     color: whitesmoke;
@@ -144,6 +144,9 @@ font-size: 20px;
     .body {
       display: flex;
     }
+      .header img {
+    width: 100%;
+  }
   
     .header {
     width: auto;
